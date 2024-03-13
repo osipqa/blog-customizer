@@ -42,13 +42,19 @@ export const Text = ({
 	const className = clsx(
 		styles.text,
 		styles[`size${size}`],
-		{ [styles.dynamic]: dynamic },
+		{
+			[styles.dynamic]: dynamic,
+		},
 		styles[`weight${weight}`],
 		styles[`${fontStyle}`],
-		{ [styles.uppercase]: uppercase },
+		{
+			[styles.uppercase]: uppercase,
+		},
 		styles[`${align}`],
 		styles[`${family}`],
-		{ [styles.dynamicLite]: dynamicLite }
+		{
+			[styles.dynamicLite]: dynamicLite,
+		}
 	);
 	return <Tag className={className}>{children}</Tag>;
 };
