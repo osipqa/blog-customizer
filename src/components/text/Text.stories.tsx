@@ -13,29 +13,43 @@ export const SelectStory: Story = {
 	argTypes: {
 		as: {
 			options: ['h1', 'h2', 'div', 'span'],
-			control: { type: 'select' },
+			control: {
+				type: 'select',
+			},
 		},
 		dynamic: {
-			control: { type: 'boolean' },
+			control: {
+				type: 'boolean',
+			},
 		},
 		size: {
 			options: [12, 18, 22, 25, 31, 45],
-			control: { type: 'select' },
+			control: {
+				type: 'select',
+			},
 		},
 		weight: {
 			options: [400, 800],
-			control: { type: 'select' },
+			control: {
+				type: 'select',
+			},
 		},
 		fontStyle: {
 			options: ['italic', 'normal'],
-			control: { type: 'select' },
+			control: {
+				type: 'select',
+			},
 		},
 		uppercase: {
-			control: { type: 'boolean' },
+			control: {
+				type: 'boolean',
+			},
 		},
 		align: {
 			options: ['center', 'left'],
-			control: { type: 'select' },
+			control: {
+				type: 'select',
+			},
 		},
 		family: {
 			options: [
@@ -45,7 +59,9 @@ export const SelectStory: Story = {
 				'days-one',
 				'merriweather',
 			],
-			control: { type: 'select' },
+			control: {
+				type: 'select',
+			},
 		},
 	},
 	render: (args) => {
