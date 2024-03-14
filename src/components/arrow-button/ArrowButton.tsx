@@ -31,16 +31,6 @@ export const ArrowButton: React.FC<ArrowButtonProps> = ({
 		[styles.arrow_open]: isOpened,
 	}); // Adds 'arrow_open' class if sidebar is open
 
-	/*  js constuction
-  let buttonClass = styles.container;
-  let arrowClass = styles.arrow;
-
-  if (isOpened) {
-	  buttonClass += ` ${styles.container_open}`;
-	  arrowClass += ` ${styles.arrow_open}`;
-  }
-*/
-
 	return (
 		// Button container with role, aria-label, tabIndex, and onClick handler
 		<div
